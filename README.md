@@ -1,5 +1,7 @@
 # cronicle-x-plus
 
+Docker Image: https://hub.docker.com/r/xavierh/cronicle-x-plus
+
 This docker is based on https://github.com/soulteary/docker-cronicle with some updates. Look there for settings and more info. This was more of a personal repo/image but since it worked and appears to be stable I thought of making it public.
 
 Cronicle was missing a bunch of tools that I wanted. So I added them to the docker image. 
