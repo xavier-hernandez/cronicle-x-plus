@@ -26,6 +26,6 @@ ENV debug_level=1
 ENV HOSTNAME=main
 RUN node bin/build.js dist && bin/control.sh setup
 
-RUN apk add --no-cache wget openssh rsync bash mc ripgrep nano borgbackup borgmatic
+RUN apk add --no-cache wget openssh rsync bash mc ripgrep nano borgbackup borgmatic p7zip
 
 CMD ["node", "bin/docker-entrypoint.js"]
